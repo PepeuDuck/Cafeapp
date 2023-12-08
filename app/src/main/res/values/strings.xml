@@ -1,0 +1,89 @@
+<resources>
+
+    <!--  Perfil  -->
+
+    <string name="app_nome">Café app</string>
+    <string name="texto_perfil">[Nome de Usuario]</string>
+    <string name="texto2">Informações do Perfil</string>
+    <string name="UserProfile1">Nome do Usuário</string>
+    <string name="UserProfile2">Privacidade</string>
+    <string name="UserProfile3">Historico de Compras</string>
+    <string name="UserProfile4">Ajuda e Suporte</string>
+    <string name="UserProfile5">Configurações</string>
+    <string name="UserProfile6">Convide um Amigo</string>
+    <string name="UserProfile7">Privacidade</string>
+    <string name="UserProfile8">Sair</string>
+
+    <!--  Tela Inicial  -->
+
+    <string name="TelaInicial1">CAFÉ APP</string>
+    <string name="TelaInicial2">Cardápio</string>
+    <string name="TelaInicial3">Cupons</string>
+    <string name="TelaInicial4">Eventos</string>
+    <string name="TelaInicial5">Perfil</string>
+    <string name="TelaInicial6">Feedback</string>
+    <string name="TelaInicial7">Configuração</string>
+
+
+    <!-- Mariana -->
+
+
+    <string name="app_name">Project Café Menu</string>
+    <string name="entrar">Entrar</string>
+    <string name="text_cadastro"> Criar nova conta</string>
+    <string name="text_esqsenha"> Esqueceu a senha?</string>
+    <string name="title_cadastro"> Crie sua conta</string>
+    <string name="cadastrar"> Cadastrar</string>
+    <string name="link_senha"> Enviar link</string>
+    <string name="text_link"> Para receber o link de redefinição de senha, digite seu email ou telefone</string>
+    <string name="text_autentica"> Para autenticar sua conta, digite os códigos que enviamos para o seu email e telefone</string>
+    <string name="concluir">Concluir</string>
+    <string name="title_bebidas">Bebidas</string>
+    <string name="title_salgados">Salgados</string>
+    <string name="title_doces">Doces</string>
+    <string name="title_cardapio">Cardápio</string>
+    <string name="text_cardapio">Selecione uma categoria para visualizar o cardápio</string>
+    <string name="bt_bebidas">Bebidas</string>
+    <string name="bt_salgados">Salgados</string>
+    <string name="bt_doces">Doces</string>
+    <string name="expresso">Expresso</string>
+    <string name="expresso_preco">R$4,00</string>
+    <string name="macchiato">Macchiato</string>
+    <string name="macchiato_preco">RS4,50</string>
+    <string name="caffelatte">Caffelatte</string>
+    <string name="caffelatte_preco">R$5,50</string>
+    <string name="fredo">Fredo</string>
+    <string name="fredo_preco">R$6,00</string>
+    <string name="mocha">Caffe Mocha</string>
+    <string name="mocha_preco">R$6,50</string>
+    <string name="frappe">Frappe</string>
+    <string name="frappe_preco">R$7,00</string>
+    <string name="paoqueijo">Pão de queijo</string>
+    <string name="paoqueijo_preco">R$3,50</string>
+    <string name="coxinha">Coxinhas</string>
+    <string name="coxinha_preco">R$5,50</string>
+    <string name="empada">Empadas</string>
+    <string name="empada_preco">R$4,50</string>
+    <string name="croissant">Croissant</string>
+    <string name="croissant_preco">R$4,50</string>
+    <string name="quiche">Quiches</string>
+    <string name="quiche_preco">R$6,00</string>
+    <string name="pastel">Pasteis</string>
+    <string name="pastel_preco">R$3,00</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="doce1">Nome do doce</string>
+    <string name="doce2">Nome do doce</string>
+    <string name="doce3">Nome do doce</string>
+    <string name="doce4">Nome do doce</string>
+    <string name="doce5">Nome do doce</string>
+    <string name="doce6">Nome do doce</string>
+    <string name="title_finalizar"> Finalização</string>
+    <string name="bt_finalizar">Enviar pedido</string>
+    <string name="text_revisar">Revisar pedido</string>
+    <string name="text_pagamento">Escolha o método de pagamento</string>
+    <string name="rd_dinheiro">Dinheiro</string>
+    <string name="rd_pix">PIX</string>
+    <string name="rd_cartao">Cartão</string>
+
+
+</resources>

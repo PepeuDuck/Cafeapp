@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        tools:context=".FormBebidas">
+
+        <TextView
+            android:id="@+id/title_bebidas"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/title_bebidas"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/amarelo"
+            android:textSize="55sp"
+            android:textStyle="bold"
+            android:drawableRight="@drawable/ic_account"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/container1"
+            style="@style/ContainerCardapio"
+            android:layout_width="138dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.94"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/title_bebidas" />
+
+        <ImageView
+            android:id="@+id/exp_macchiato"
+            android:layout_width="93dp"
+            android:layout_height="98dp"
+            android:src="@drawable/exp_macchiato"
+            app:layout_constraintStart_toStartOf="@id/container1"
+            app:layout_constraintEnd_toEndOf="@id/container1"
+            tools:layout_editor_absoluteY="156dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/text_macchiato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="85dp"
+            android:text="@string/macchiato"
+            android:textColor="@color/amarelopastel"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/container1"
+            app:layout_constraintStart_toStartOf="@id/container1"
+            app:layout_constraintTop_toTopOf="@id/container1" />
+
+        <TextView
+            android:id="@+id/text_macchiato_preco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:text="@string/macchiato_preco"
+            android:textColor="@color/amarelopastel"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/container1"
+            app:layout_constraintStart_toStartOf="@id/container1"
+            app:layout_constraintTop_toTopOf="@id/container1" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_enviar"
+            style="@style/Button_cardapio"
+            android:text="@string/link_senha"
+
+            app:layout_constraintStart_toStartOf="@id/container2"
+            app:layout_constraintEnd_toEndOf="@id/container2"
+            app:layout_constraintTop_toTopOf="@id/container2"
+            android:layout_marginTop="130sp"
+            />
+
+        <View
+            android:id="@+id/container2"
+            style="@style/ContainerCardapio"
+            android:layout_width="138dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.092"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/title_bebidas" />
+
+        <ImageView
+            android:id="@+id/expresso"
+            android:layout_width="93dp"
+            android:layout_height="98dp"
+            android:src="@drawable/ic_expresso"
+            app:layout_constraintStart_toStartOf="@id/container2"
+            app:layout_constraintEnd_toEndOf="@id/container2"
+            tools:layout_editor_absoluteY="156dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/text_expresso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="85dp"
+            android:text="@string/expresso"
+            android:textColor="@color/amarelopastel"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/container2"
+            app:layout_constraintStart_toStartOf="@id/container2"
+            app:layout_constraintTop_toTopOf="@id/container2" />
+
+        <TextView
+            android:id="@+id/text_expresso_preco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:text="@string/expresso_preco"
+            android:textColor="@color/amarelopastel"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/container2"
+            app:layout_constraintStart_toStartOf="@id/container2"
+            app:layout_constraintTop_toTopOf="@id/container2" />
+
+
+        <View
+            android:id="@+id/container3"
+            style="@style/ContainerCardapio"
+            android:layout_width="138dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.94"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/container2" />
+
+        <ImageView
+            android:id="@+id/fredo"
+            android:layout_width="102dp"
+            android:layout_height="106dp"
+            android:src="@drawable/fredo"
+            app:layout_constraintStart_toStartOf="@id/container3"
+            app:layout_constraintEnd_toEndOf="@id/container3"
+            tools:layout_editor_absoluteY="335dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/text_fredo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="85dp"
+            android:text="@string/fredo"
+            android:textColor="@color/amarelopastel"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/container3"
+            app:layout_constraintStart_toStartOf="@id/container3"
+            app:layout_constraintTop_toTopOf="@id/container3" />
+
+        <TextView
+            android:id="@+id/text_fredo_preco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:text="@string/fredo_preco"
+            android:textColor="@color/amarelopastel"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/container3"
+            app:layout_constraintStart_toStartOf="@id/container3"
+            app:layout_constraintTop_toTopOf="@id/container3" />
+
+        <View
+            android:id="@+id/container4"
+            style="@style/ContainerCardapio"
+            android:layout_width="138dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.092"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/container1" />
+
+
+        <ImageView
+            android:id="@+id/caffelatte"
+            android:layout_width="117dp"
+            android:layout_height="128dp"
+            android:src="@drawable/caffelatte"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintStart_toStartOf="@id/container4"
+            app:layout_constraintEnd_toEndOf="@id/container4"
+            tools:layout_editor_absoluteY="326dp" />
+
+        <TextView
+            android:id="@+id/text_caffelatte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="85dp"
+            android:text="@string/caffelatte"
+            android:textColor="@color/amarelopastel"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/container4"
+            app:layout_constraintStart_toStartOf="@id/container4"
+            app:layout_constraintTop_toTopOf="@id/container4" />
+
+        <TextView
+            android:id="@+id/text_caffelatte_preco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:text="@string/caffelatte_preco"
+            android:textColor="@color/amarelopastel"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/container4"
+            app:layout_constraintStart_toStartOf="@id/container4"
+            app:layout_constraintTop_toTopOf="@id/container4" />
+
+        <View
+            android:id="@+id/container5"
+            style="@style/ContainerCardapio"
+            android:layout_width="138dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.94"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/container4" />
+
+        <ImageView
+            android:id="@+id/frappe"
+            android:layout_width="66dp"
+            android:layout_height="70dp"
+            android:src="@drawable/frappe"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintStart_toStartOf="@id/container5"
+            app:layout_constraintEnd_toEndOf="@id/container5"
+            tools:layout_editor_absoluteY="546dp" />
+
+        <TextView
+            android:id="@+id/text_frappe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="85dp"
+            android:text="@string/frappe"
+            android:textColor="@color/amarelopastel"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/container5"
+            app:layout_constraintStart_toStartOf="@id/container5"
+            app:layout_constraintTop_toTopOf="@id/container5" />
+
+        <TextView
+            android:id="@+id/text_frappe_preco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:text="@string/frappe_preco"
+            android:textColor="@color/amarelopastel"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/container5"
+            app:layout_constraintStart_toStartOf="@id/container5"
+            app:layout_constraintTop_toTopOf="@id/container5" />
+
+        <View
+            android:id="@+id/container6"
+            style="@style/ContainerCardapio"
+            android:layout_width="138dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.092"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/container3" />
+
+
+
+        <ImageView
+            android:id="@+id/mocha"
+            android:layout_width="84dp"
+            android:layout_height="87dp"
+            android:src="@drawable/mocha"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintStart_toStartOf="@id/container6"
+            app:layout_constraintEnd_toEndOf="@id/container6"
+            tools:layout_editor_absoluteY="536dp" />
+
+        <TextView
+            android:id="@+id/text_mocha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="85dp"
+            android:text="@string/mocha"
+            android:textColor="@color/amarelopastel"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/container6"
+            app:layout_constraintStart_toStartOf="@id/container6"
+            app:layout_constraintTop_toTopOf="@id/container6" />
+
+        <TextView
+            android:id="@+id/text_mocha_preco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:text="@string/mocha_preco"
+            android:textColor="@color/amarelopastel"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/container6"
+            app:layout_constraintStart_toStartOf="@id/container6"
+            app:layout_constraintTop_toTopOf="@id/container6" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

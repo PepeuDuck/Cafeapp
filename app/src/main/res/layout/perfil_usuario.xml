@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/logoperfil"
+        android:layout_height="80dp"
+        android:layout_width="80dp"
+        android:src="@drawable/perfil"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <View
+        android:id="@+id/containerbranco1"
+        android:layout_marginTop="8dp"
+        style="@style/ContainerComponentes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logoperfil"
+        />
+
+    <TextView
+        android:id="@+id/texto"
+        android:textColor="@color/amarelopastel"
+        android:text="@string/UserProfile1"
+        android:textStyle="bold"
+        android:layout_width="157dp"
+        android:layout_height="25dp"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="@id/containerbranco1"
+        app:layout_constraintEnd_toEndOf="@id/containerbranco1"
+        app:layout_constraintTop_toTopOf="@id/containerbranco1"
+        />
+
+    <View
+        android:id="@+id/containerbranco"
+        android:layout_marginTop="50dp"
+        style="@style/ContainerComponentes1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/texto"
+        />
+
+    <ImageView
+        android:src="@drawable/privacidadee"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toTopOf="@id/containerbranco"
+        app:layout_constraintStart_toStartOf="@id/containerbranco"
+        />
+
+    <ImageView
+        android:src="@drawable/setaa"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintTop_toTopOf="@id/containerbranco"
+        app:layout_constraintEnd_toEndOf="@id/containerbranco"
+        />
+
+    <TextView
+        android:id="@+id/texto2"
+        android:textColor="@color/amarelopastel"
+        android:textStyle="bold"
+        android:text="@string/UserProfile2"
+        android:layout_width="310dp"
+        android:layout_height="25dp"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="60dp"
+        app:layout_constraintStart_toStartOf="@id/containerbranco"
+        app:layout_constraintTop_toTopOf="@id/containerbranco"
+        />
+
+
+    <View
+        android:id="@+id/containerbranco2"
+        android:layout_marginTop="25dp"
+        style="@style/ContainerComponentes1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/containerbranco"
+        />
+
+    <ImageView
+        android:src="@drawable/historicoo"
+        android:layout_height="28dp"
+        android:layout_width="28dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toTopOf="@id/containerbranco2"
+        app:layout_constraintStart_toStartOf="@id/containerbranco2"
+        />
+
+    <ImageView
+        android:src="@drawable/setaa"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintTop_toTopOf="@id/containerbranco2"
+        app:layout_constraintEnd_toEndOf="@id/containerbranco2"
+        />
+
+    <TextView
+        android:id="@+id/texto3"
+        android:textColor="@color/amarelopastel"
+        android:text="@string/UserProfile3"
+        android:textStyle="bold"
+        android:layout_width="310dp"
+        android:layout_height="25dp"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="60dp"
+        app:layout_constraintStart_toStartOf="@id/containerbranco"
+        app:layout_constraintTop_toTopOf="@id/containerbranco2"
+        />
+
+    <View
+        android:id="@+id/containerbranco3"
+        android:layout_marginTop="25dp"
+        style="@style/ContainerComponentes1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/containerbranco2"
+        />
+
+    <ImageView
+        android:src="@drawable/suportee"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toTopOf="@id/containerbranco3"
+        app:layout_constraintStart_toStartOf="@id/containerbranco3"
+        />
+
+    <ImageView
+        android:src="@drawable/setaa"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintTop_toTopOf="@id/containerbranco3"
+        app:layout_constraintEnd_toEndOf="@id/containerbranco3"
+        />
+
+    <TextView
+        android:id="@+id/texto4"
+        android:textColor="@color/amarelopastel"
+        android:text="@string/UserProfile4"
+        android:textStyle="bold"
+        android:layout_width="310dp"
+        android:layout_height="25dp"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="60dp"
+        app:layout_constraintStart_toStartOf="@id/containerbranco2"
+        app:layout_constraintTop_toTopOf="@id/containerbranco3"
+        />
+
+    <View
+        android:id="@+id/containerbranco4"
+        android:layout_marginTop="25dp"
+        style="@style/ContainerComponentes1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/containerbranco3"
+        />
+
+    <ImageView
+        android:src="@drawable/configuracao"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toTopOf="@id/containerbranco4"
+        app:layout_constraintStart_toStartOf="@id/containerbranco4"
+        />
+
+    <ImageView
+        android:src="@drawable/setaa"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintTop_toTopOf="@id/containerbranco4"
+        app:layout_constraintEnd_toEndOf="@id/containerbranco4"
+        />
+
+    <TextView
+        android:id="@+id/texto5"
+        android:textColor="@color/amarelopastel"
+        android:text="@string/UserProfile5"
+        android:textStyle="bold"
+        android:layout_width="310dp"
+        android:layout_height="25dp"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="60dp"
+        app:layout_constraintStart_toStartOf="@id/containerbranco4"
+        app:layout_constraintTop_toTopOf="@id/containerbranco4"
+        />
+
+    <View
+        android:id="@+id/containerbranco5"
+        android:layout_marginTop="25dp"
+        style="@style/ContainerComponentes1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/containerbranco4"
+        />
+
+    <ImageView
+        android:src="@drawable/userperfill"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toTopOf="@id/containerbranco5"
+        app:layout_constraintStart_toStartOf="@id/containerbranco5"
+        />
+
+    <ImageView
+        android:src="@drawable/setaa"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintTop_toTopOf="@id/containerbranco5"
+        app:layout_constraintEnd_toEndOf="@id/containerbranco5"
+        />
+
+    <TextView
+        android:id="@+id/texto6"
+        android:textColor="@color/amarelopastel"
+        android:text="@string/UserProfile6"
+        android:textStyle="bold"
+        android:layout_width="310dp"
+        android:layout_height="25dp"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="60dp"
+        app:layout_constraintStart_toStartOf="@id/containerbranco5"
+        app:layout_constraintTop_toTopOf="@id/containerbranco5"
+        />
+
+    <View
+        android:id="@+id/containerbranco6"
+        android:layout_marginTop="25dp"
+        style="@style/ContainerComponentes1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/containerbranco5"
+        />
+
+    <ImageView
+        android:src="@drawable/sair"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toTopOf="@id/containerbranco6"
+        app:layout_constraintStart_toStartOf="@id/containerbranco6"
+        />
+
+    <TextView
+        android:id="@+id/texto7"
+        android:textColor="@color/amarelopastel"
+        android:text="@string/UserProfile8"
+        android:textStyle="bold"
+        android:layout_width="310dp"
+        android:layout_height="25dp"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="60dp"
+        app:layout_constraintStart_toStartOf="@id/containerbranco6"
+        app:layout_constraintTop_toTopOf="@id/containerbranco6"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

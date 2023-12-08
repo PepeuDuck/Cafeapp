@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        tools:context=".FormSenha">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="80dp"
+            />
+
+        <TextView
+            android:id="@+id/text_link"
+            android:layout_width="345dp"
+            android:layout_height="81dp"
+            android:layout_marginTop="50dp"
+            android:textAlignment="center"
+            android:text="@string/text_link"
+            android:textColor="@color/amarelo"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/logo" />
+
+        <View
+            android:id="@+id/containerComponents"
+            style="@style/ContainerComponents"
+            android:layout_width="371dp"
+            android:layout_height="260dp"
+            android:layout_marginTop="130dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/logo" />
+
+        <EditText
+            android:id="@+id/email_esqsenha"
+            style="@style/EditText"
+            android:drawableRight="@drawable/ic_email"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+            android:textColor="@color/amarelopastel"
+            app:layout_constraintStart_toStartOf="@id/containerComponents"
+            app:layout_constraintEnd_toEndOf="@id/containerComponents"
+            app:layout_constraintTop_toTopOf="@id/containerComponents"
+            />
+
+        <EditText
+            android:id="@+id/telefone_esqsenha"
+            style="@style/EditText"
+            android:drawableRight="@drawable/ic_phone"
+            android:inputType="number"
+            android:hint="Telefone"
+            android:textColor="@color/amarelopastel"
+            app:layout_constraintStart_toStartOf="@id/containerComponents"
+            app:layout_constraintEnd_toEndOf="@id/containerComponents"
+            app:layout_constraintTop_toBottomOf="@id/email_esqsenha"
+            />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_enviar"
+            style="@style/Button"
+            android:text="@string/link_senha"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/telefone_esqsenha"
+
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
